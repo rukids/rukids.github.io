@@ -18,3 +18,19 @@ title: Добро пожаловать
 	<img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80" class="w-full h-full absolute inset-0 object-cover opacity-70" />
 </div>
 
+<div class="grid grid-cols-1 md:grid-cols-2">
+
+	<div class="bg-white p-12 md:p-24 flex justify-end items-center">
+		<img src="{{ post.data.image }}" class="w-full max-w-md" />
+	</div>
+
+	<div class="bg-gray-100 p-12 md:p-24 flex justify-start items-center">
+		<div class="max-w-md">
+			<div class="w-24 h-2 bg-yellow-800 mb-4"></div>
+			<h2 class="font-display font-bold text-2xl md:text-3xl lg:text-4xl mb-6">Обо мне</h2>
+			<p class="font-light text-gray-600 text-sm md:text-base mb-6 leading-relaxed">Меня зовут Черноусова Елена и я живу в г.Новато, Марин. Я мама двух мальчиков билингвов, активно занимающаяся вопросами развития билингвизма у детей и использованием игровых образовательных технологий.</p>
+			<a href="/about-me" class="inline-block border-2 border-yellow-800 font-light text-yellow-800 text-sm uppercase tracking-widest py-3 px-8 hover:bg-yellow-800 hover:text-white">Подробнее</a>
+		</div>
+	</div>
+
+</div>
