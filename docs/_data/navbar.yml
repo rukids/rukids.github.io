@@ -1,0 +1,7 @@
+items:
+  - text: Расписание
+    url: "/schedule"
+  - text: О программе
+    url: "/about"
+  - text: Контакты
+    url: "/contacts"

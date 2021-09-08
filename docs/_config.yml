@@ -1,11 +1,16 @@
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+
+google_analytics:
+
+title: Игровая Школа Ru.Kids
+description: Обучение детей 3-7 лет русскому языку
+lang: ru-RU 
+site_name: Школа Ru.Kids
 
 exclude:
   - "*.config.js"
   - "package*.json"
   - "assets"
   - "node_modules"
+
+plugins:
+  - jekyll-seo-tag

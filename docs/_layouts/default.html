@@ -1,13 +1,12 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " ru-RU " }}">
 
 <head>
-    <link rel="stylesheet" href="{{ site.data.manifest['docs.css'] }}">
-    <title>{{ page.title }}</title>
+    {% include head.html %}
 </head>
 
-<body class="border-blue-200 p-8 min-h-screen min-w-full border-8">
-    {{ content }}
+<body class="antialiased text-gray-900 min-h-screen ">
+    {% include navbar.html %} {{ content }} {% include scripts.html %}
 </body>
 
 </html>

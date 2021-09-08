@@ -2,10 +2,18 @@ module.exports = {
     purge: false,
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                'display': ['Playfair Display', 'serif'],
+                'heading': ['Fira Sans Condensed', 'serif'],
+                'sans': ['Overpass', 'sans-serif']
+            }
+        },
     },
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/typography'),
+    ],
 };
