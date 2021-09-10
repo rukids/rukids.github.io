@@ -2,7 +2,13 @@
 layout: post
 permalink: /about-me
 title: Елена Черноусова. Обо Мне
+header_img: ./dist/imgs/about-me-header.jpg
 ---
+
+<div class="bg-white justify-left pd-2 md:float-left">
+	<img src="{{ site.data.manifest[ 'imgs/elena2.jpg'] }}" class="max-w-full" />
+</div>
+
 
 Меня зовут Черноусова Елена и я живу в г.Новато, Марин. Я мама двух мальчиков билингвов, активно занимающаяся вопросами развития билингвизма у детей и использованием игровых образовательных технологий. 
 

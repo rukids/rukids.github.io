@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 const isProduction = process.env.NODE_ENV === 'production';
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: isProduction ? 'production' : 'development',
@@ -24,7 +25,19 @@ module.exports = {
                 'css-loader',
                 'postcss-loader',
             ]
-        }]
+        },
+        {
+            test: /\.(png|jp(e*)g|svg)$/,
+            use: [
+              {
+                loader: 'url-loader',
+                options: {
+                  limit: 8000,
+                  name: '[fullhash].[ext]',
+                }
+              }
+            ]
+          }]
     },
     plugins: [
         new CleanWebpackPlugin(),
@@ -34,6 +47,12 @@ module.exports = {
         new WebpackManifestPlugin({
             fileName: '../_data/manifest.yml',
             publicPath: './dist/',
+        }),
+        new CopyWebpackPlugin({
+            patterns: [{
+                from: path.resolve('assets/imgs'),
+                to: 'imgs/',
+            }]
         }),
     ],
 };

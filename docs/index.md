@@ -20,8 +20,8 @@ title: Добро пожаловать
 
 <div class="grid grid-cols-1 md:grid-cols-2">
 
-	<div class="bg-white p-12 md:p-24 flex justify-end items-center">
-		<img src="{{ post.data.image }}" class="w-full max-w-md" />
+	<div class="bg-white flex justify-end items-center">
+		<img src="{{ site.data.manifest[ 'imgs/elena.jpg'] }}" class="max-w-full" />
 	</div>
 
 	<div class="bg-gray-100 p-12 md:p-24 flex justify-start items-center">

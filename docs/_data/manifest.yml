@@ -1,5 +1,12 @@
 {
-  "css.css": "./dist/css.5ffd4e8b726b9fc32ff5.css",
-  "css.js": "./dist/css.5ffd4e8b726b9fc32ff5.js",
-  "js.js": "./dist/js.5ffd4e8b726b9fc32ff5.js"
+  "css.css": "./dist/css.17d13c1cc381a36384ed.css",
+  "css.js": "./dist/css.17d13c1cc381a36384ed.js",
+  "js.js": "./dist/js.17d13c1cc381a36384ed.js",
+  "imgs/schedule-header.jpg": "./dist/imgs/schedule-header.jpg",
+  "imgs/main-header.jpg": "./dist/imgs/main-header.jpg",
+  "imgs/contacts-header.jpg": "./dist/imgs/contacts-header.jpg",
+  "imgs/about-header.jpg": "./dist/imgs/about-header.jpg",
+  "imgs/about-me-header.jpg": "./dist/imgs/about-me-header.jpg",
+  "imgs/elena.jpg": "./dist/imgs/elena.jpg",
+  "imgs/elena2.jpg": "./dist/imgs/elena2.jpg"
 }
