@@ -15,7 +15,7 @@ title: Добро пожаловать
 		<a href="/contacts" class="border-b border-white">Связаться</a>
 	</div>
 
-	<img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80" class="w-full h-full absolute inset-0 object-cover opacity-70" />
+	<img src="{{ site.data.manifest[ 'imgs/main-header.jpg'] }}" class="w-full h-full absolute inset-0 object-cover opacity-70" />
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2">

@@ -5,7 +5,7 @@ title: Елена Черноусова. Обо Мне
 header_img: ./dist/imgs/about-me-header.jpg
 ---
 
-<div class="bg-white justify-left pd-2 md:float-left">
+<div class="bg-white justify-left m-2 md:float-left">
 	<img src="{{ site.data.manifest[ 'imgs/elena2.jpg'] }}" class="max-w-full" />
 </div>
 
