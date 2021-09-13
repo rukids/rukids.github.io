@@ -14,3 +14,8 @@ exclude:
 
 plugins:
   - jekyll-seo-tag
+
+collections: 
+  schedule:
+    output: true 
+    sort_by: month

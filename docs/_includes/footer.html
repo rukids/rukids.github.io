@@ -5,21 +5,16 @@
 			<div class="text-white opacity-50 text-4xl font-display">{{ site.site_name }}</div>				
 		</div>
 		<div>
-			<div class="font-display text-white uppercase text-sm tracking-widest mb-6">Расписание</div>
-			{% for item in footer.section_one_links %}
-				<a href="{{ item.url }}" class="block mb-4">{{ item.text }}</a>
-			{% endfor %}
+			<div class="font-display text-white uppercase text-sm tracking-widest mb-6">О Школе</div>
+			<a href="/about" class="block mb-4">Программа</a>
+			<a href="/about-me" class="block mb-4">Преподаватель</a>
+			<a href="/contacts" class="block mb-4">Контакты</a>
 		</div>
 		<div>
-			<div class="font-display text-white uppercase text-sm tracking-widest mb-6">{{ footer.section_two_title }}</div>
-			{% for item in footer.section_two_links %}
-				<a href="{{ item.url }}" class="block mb-4">{{ item.text }}</a>
-			{% endfor %}
-		</div>
-		<div>
-			<div class="font-display text-white uppercase text-sm tracking-widest mb-6">{{ footer.section_three_title }}</div>
-			{% for item in footer.section_three_links %}
-				<a href="{{ item.url }}" class="block mb-4">{{ item.text }}</a>
+			<div class="font-display text-white uppercase text-sm tracking-widest mb-6">Расписание 2021</div>
+            {% assign schedule = site.schedule | where:"year", "2021" %}
+			{% for item in schedule  %}
+                <a href="{{ item.url }}" class="block mb-4">{{ item.title }}</a>
 			{% endfor %}
 		</div>
 	</div>

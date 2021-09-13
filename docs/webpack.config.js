@@ -46,7 +46,7 @@ module.exports = {
         }),
         new WebpackManifestPlugin({
             fileName: '../_data/manifest.yml',
-            publicPath: './dist/',
+            publicPath: '/dist/',
         }),
         new CopyWebpackPlugin({
             patterns: [{
