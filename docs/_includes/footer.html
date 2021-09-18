@@ -12,7 +12,7 @@
 		</div>
 		<div>
 			<div class="font-display text-white uppercase text-sm tracking-widest mb-6">Расписание 2021</div>
-            {% assign schedule = site.schedule | where:"year", "2021" %}
+            {% assign schedule = site.schedule | where:"year", "2021" | sort: "month" %}
 			{% for item in schedule  %}
                 <a href="{{ item.url }}" class="block mb-4">{{ item.title }}</a>
 			{% endfor %}

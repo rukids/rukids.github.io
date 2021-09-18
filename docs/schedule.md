@@ -12,7 +12,7 @@ header_img: /dist/imgs/schedule-header.jpg
                 2021
             </h2>
             <p class="mt-4 max-w-md">
-                {% assign schedule = site.schedule | where:"year", "2021" %}
+                {% assign schedule = site.schedule | where:"year", "2021" | sort: "month" %}
     			{% for item in schedule  %}
                     <a href="{{ item.url }}" class="block mb-4">{{ item.title }}</a>
     			{% endfor %}
