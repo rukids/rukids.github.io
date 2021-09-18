@@ -2,9 +2,18 @@
 google_analytics:
 
 title: Игровая Школа Ru.Kids
-description: Обучение детей 3-7 лет русскому языку
+description: Игровая школа - Обучение детей 3-7 лет русскому языку в штате Калифорния. 
+tagline: Обучение детей русскому языку в игровой форме
 lang: ru-RU 
 site_name: Школа Ru.Kids
+twitter:
+  username: wertic_
+  card: summary
+social:
+  name: Ru.Kids
+  links:
+    - https://www.facebook.com/elena.chernousova.1
+    - https://github.com/rukids
 
 exclude:
   - "*.config.js"
