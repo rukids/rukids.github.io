@@ -4,8 +4,6 @@
 
 <link rel="stylesheet" href="{{ site.data.manifest[ 'css.css'] }}">
 <link rel="shortcut icon" type="image/png" href={{ "/assets/favicon.ico" | relative_url }}>
-
-<title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
-<meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" /> {% seo %}
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700&family=Playfair+Display:wght@100;200;300;400;500;600;700&family=Overpass:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+{% seo %}

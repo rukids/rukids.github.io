@@ -34,3 +34,14 @@ title: Добро пожаловать
 	</div>
 
 </div>
+
+<div class="w-full bg-gray-900 flex justify-center">
+    <img src="{{ site.data.manifest[ 'imgs/fullscreen.jpg'] }}" class="object-cover max-w-xl md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+</div>
+
+<div class="max-w-xl mx-auto text-center py-24 md:py-32">
+	<div class="w-24 h-2 bg-yellow-800 mb-4 mx-auto"></div>
+	<h2 class="font-display font-bold text-3xl md:text-4xl lg:text-5xl mb-6">О Школе</h2>
+	<p class="font-light text-gray-600 mb-6 leading-relaxed">Игротека - это вариант игровых занятий на русском языке. Для детей 4-5 лет эта отличная подготовка к школе и садику, оттачивание социальных навыков, когда попадаешь в окружение ведомое взрослым с кучей детей, которых не выбирал встречаться!</p>
+	<a href="/about" class="inline-block border-2 border-yellow-800 font-light text-yellow-800 text-sm uppercase tracking-widest py-3 px-8 hover:bg-yellow-800 hover:text-white">Подробнее</a>
+</div>

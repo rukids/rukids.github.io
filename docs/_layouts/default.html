@@ -6,16 +6,9 @@
 </head>
 
 <body class="antialiased text-gray-900 min-h-screen ">
-    {% include navbar.html %} {{ content }} {% include scripts.html %}  {% include footer.html %}
+    {% include navbar.html %} {{ content }} {% include footer.html %}
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6BZFBV65G"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-Q6BZFBV65G');
-    </script>
+    {% include scripts.html %}
 </body>
 
 </html>
