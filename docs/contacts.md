@@ -25,10 +25,12 @@ header_img: /dist/imgs/contacts-header.jpg
 		</div>
 
 		<div x-data="{ input : 'default' }">
-			<form action="https://www.elformo.com/forms/ec49810a-db83-4ce6-bb90-a2880b792b94" method="post" accept-charset="UTF-8" name="contact" x-on:submit="input=''">
+			<form action="https://formsubmit.co/elena@rukids.us" method="post" accept-charset="UTF-8" name="contact" target="_blank" x-on:submit="input=''">
+                <input type="hidden" name="_next" value="https://rukids.us/thank-you"/>
+                <input type="hidden" name="_subject" value="New submission!"/>
 				<div class="invisible h-0">
 					<label class="block text-base tracking-tight text-gray-600">Аккаунт</label>
-                    <textarea id="elformo_honeypot" placeholder="Аккаунт" name="elformo_honeypot"  class="mt-2 w-full border-none text-sm p-4 bg-gray-100 text-gray-700" x-text="input"></textarea>
+                    <textarea id="_honey" placeholder="Аккаунт" name="_honey"  class="mt-2 w-full border-none text-sm p-4 bg-gray-100 text-gray-700" x-text="input"></textarea>
                 </div>
 				<div>
 					<label class="block text-base tracking-tight text-gray-600">Имя</label>
